@@ -1,10 +1,10 @@
 #include <ESP8266WiFi.h>
 #include <ESPAsyncWebServer.h>
-#include <Adafruit_INA219.h> // Correct library for INA219
+#include <Adafruit_INA219.h> // Library for INA219
 
 // Wi-Fi credentials
-const char* ssid = "RESPAWN_ZULI";
-const char* password = "kwakwa5!";
+const char* ssid = "SSID";
+const char* password = "PASSWORD";
 
 // INA219 sensor setup
 Adafruit_INA219 ina219;

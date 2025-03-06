@@ -47,7 +47,7 @@ function App() {
   );
 
   return (
-    <div className="oscilloscope">
+    <div className="box">
       <h1>ESP8266 Thermometer</h1>
       <p>Temperature: {temperature ? `${temperature} °C` : 'Loading...'}</p>
       {renderLineChart}
